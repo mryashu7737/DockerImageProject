@@ -1,0 +1,302 @@
+    1  whoami
+    2  yum install python
+    3  yum
+    4  yum --help
+    5  yum install apache
+    6  yum install http
+    7  exit
+    8  vim /etc/yum.repos.d
+    9  cd /etc/yum.repos.d
+   10  ls
+   11  cd redhat.repo
+   12  vim redhat.repo 
+   13  exit
+   14  sudo 
+   15  ls
+   16  yum 
+   17  yum coclear
+   18  cls
+   19  df -hT
+   20  cd /run/media/root/
+   21  ls
+   22  cd RHEL-9-3-0-BaseOS-x86_64/
+   23  ls
+   24  pwd
+   25  whoami
+   26  su
+   27  pwd
+   28  cd ..
+   29  ls
+   30  cd BaseOS/
+   31  ls
+   32  pwd
+   33  docker ps
+   34  ls
+   35  cd ...
+   36  cd..
+   37  exit
+   38  ls
+   39  rpm -q firefox
+   40  yum install vlc
+   41  ls
+   42  cd etc/yum.repos.d
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd etc 
+   47  ls
+   48  cd yum.repos.d/
+   49  ls
+   50  vim yash.repo
+   51  cat yash.repo
+   52  yum repolist
+   53  yum install vlc
+   54  rpm -q firefox
+   55  rpm -e firefox
+   56  rpm -q firefox
+   57  yum install firefox
+   58  yum repo list
+   59  yum repolist
+   60  yum install docker
+   61  ls
+   62  docker ps 
+   63  docker cp app.py 9f03c5012d6:/
+   64  docker cp app.py 9f03c50e12d6:/
+   65  docker ps -o wide
+   66  docker ps wide -o
+   67  docker ps
+   68  docker config
+   69  docker inspect 9f03c50e12d6
+   70  docker ps
+   71  docker image
+   72  docker images
+   73  docker pull ubuntu
+   74  ls
+   75  docker images
+   76  docker pull redhat/ubi8
+   77  docker images
+   78  docker pull redhat/ubi8
+   79  docker run -it redhat/ubi8
+   80  docker images
+   81  docker run -it ubuntu
+   82  ls
+   83  docker ps
+   84  docker images 
+   85  clear
+   86  docker ps
+   87  docker images
+   88  python
+   89  ls
+   90  clear
+   91  docker pull centos
+   92  docker images
+   93  docker run -it centos
+   94  docker ps 
+   95  docker run -it redat/ubi8
+   96  docker images
+   97  docker images --help
+   98  docker images delete ubuntu
+   99  docker images delete 
+  100  docker ps
+  101  docker images
+  102  docker image delete a19484a8e263
+  103  docker image --help
+  104  dokcer pull redhat/ubi8
+  105  docker pull redhat/ubi8
+  106  docker run -it centos
+  107  ls
+  108  cd Document
+  109  ls
+  110  cd Documents/
+  111  ls
+  112  mkdir DockerProject
+  113  cd DockerProject/
+  114  ls
+  115  "echo Docker basic project"
+  116  "echo Docker basic project" > Readmefile
+  117  echo "Docker basic project" > Readmefile
+  118  cat Readmefile 
+  119  git init
+  120  git status
+  121  rm Readmefile 
+  122  git clone "https://github.com/mryashu7737/DockerImageProject.git"
+  123  git status
+  124  git pull origin master
+  125  git pull
+  126  git pull https://github.com/mryashu7737/DockerImageProject.git
+  127  ls
+  128  cat DockerImageProject/
+  129  cd DockerImageProject/
+  130  ls
+  131  cat README.md 
+  132  vi app.py
+  133  cat app.py 
+  134  docker ps
+  135  docker run -it ubutu
+  136  docker images
+  137  docker run -it centos
+  138  docker ps
+  139  docker images
+  140  firewall
+  141  firefox
+  142  sudo
+  143  su
+  144  su user
+  145  su
+  146  ls
+  147  docker status
+  148  docker ps
+  149  docker images
+  150  cd Documents/
+  151  ls
+  152  cd DockerProject/
+  153  ls
+  154  clear
+  155  docker images
+  156  docker pull ubuntu/ubi8
+  157  docker pull ubuntu:ubi8
+  158  docker pull ubuntu/ubi8
+  159  clear
+  160  ls
+  161  cd ls
+  162  cd DockerImageProject/
+  163  ls
+  164  ls -all
+  165  git add.
+  166  git add ./
+  167  git status
+  168  git commit -m "pushing the file to github"
+  169  git --global user.name
+  170  git config --global user.name
+  171  git config --global user.email
+  172  git add .
+  173  ls
+  174  git commit -m "git push"
+  175  git push
+  176  git config user.name "Yash Sharma"
+  177  git config user.email "yashsharma.mkn@gmail.com
+  178  "
+  179  git config user.email
+  180  git status
+  181  git push
+  182  cd ..
+  183  cd DockerImageProject/
+  184  docker ps
+  185  docker cp app.py dd015b7bc00a:/
+  186  ls
+  187  docker cp app.py dd015b7bc00a:/
+  188  clear
+  189  cat app.py
+  190  docker ps
+  191  docker cp app.py dd015b7bc00a:/
+  192  podman ps
+  193  podman cp app.py dd015b7bc00a:/app.py
+  194  ping 10.88.0.2:5000
+  195  ls
+  196  docker ps
+  197  docker run -it centos
+  198  docker ps
+  199  ping 10.88.0.2:5000
+  200  ping 10.88.0.2:500
+  201  cd ..
+  202  ls
+  203  cd ..
+  204  ls
+  205  ping 192.168.20.1
+  206  curl "http://10.88.0.2:5000/info"
+  207  cd Documents/
+  208  cd ..
+  209  cd practical1/
+  210  ls
+  211  cd DockerImageProject/
+  212  ls
+  213  vi Dockerfile
+  214  cat Dockerfile 
+  215  ls
+  216  clear
+  217  ls
+  218  docker build -t myyashweb:v1
+  219  podman build -t myyashweb:v1
+  220  ls
+  221  docker images
+  222  ls
+  223  clear
+  224  cat Dockerfile 
+  225  cat app.py
+  226  docker build -t myyashweb:v1
+  227  ls
+  228  cd ..
+  229  cd DockerImageProject/
+  230  ls
+  231  --help 
+  232  rename --help
+  233  rename Dockerfile Containerfile
+  234  Rename Dockerfile Containerfile
+  235  rename "Dockerfile" "Containerfile"
+  236  cat Dockerfile 
+  237  podman build -t myyashweb:v1 -f Dockerfile.
+  238  podman build -t myyashweb:v1 -f Dockerfile
+  239  podman build -t myyashweb:v1 -f Dockerfile.
+  240  podman build -t myyashweb:v1 -f Dockerfile
+  241  docker ps
+  242  exit
+  243  cd Do
+  244  ls
+  245  cd Do
+  246  cd Documents/
+  247  sl
+  248  ls
+  249  cd DockerProject/
+  250  ls
+  251  cd DockerImageProject/
+  252  ls
+  253  cd..
+  254  cd ..
+  255  cd..
+  256  ls
+  257  cd ..
+  258  dc practical
+  259  ls
+  260  cd ..
+  261  cd practical1/
+  262  cd DockerImageProject/
+  263  ls
+  264  vi Dockerfile
+  265  curl http://10.88.0.9:5000/info
+  266  ls
+  267  docker login
+  268  docker push yasharma77/myyashweb:v1
+  269  podman push yasharma77/myyashweb:v1
+  270  docker images
+  271  podman push yasharma77/myyashweb:v1
+  272  podman tag localhost/myyashweb:v1 yasharma77/myyashweb:v1
+  273  podman push yasharma77/myyashweb:v1
+  274  ls
+  275  docker ps
+  276  dokcer images
+  277  docker images
+  278  podman login docker.io
+  279  podman tag localhost/myyashweb:v1 yasharma77/myyashweb:v1
+  280  podman push yasharma77/myyashweb:v1
+  281  podman logout docker.io
+  282  podman login docker.io
+  283  podman images
+  284  podman push yasharma77/myyashweb.:v1
+  285  podman tag localhost/yasharma77/myyashweb:v1 docker.io/yasharma77/myyashweb:v1
+  286  docker images
+  287  podman push docker.io/yasharma77/myyashweb
+  288  podman push docker.io/yasharma77/myyashweb:v1
+  289  clear
+  290  docker login -u yasharma77
+  291  podman images
+  292  podman push docker.io/yasharma77/myyashweb:v1
+  293  podman login docker.io
+  294  podman push docker.io/yasharma77/myyashweb:v1
+  295  echo "dckr_pat_vDMg971kgGQAqiUOPyDn8hcVA0o" | podman login docker.io -u yasharma77 --password-stdin
+  296  echo "dckr_pat_9VuaHqTNpec2-7Nhq9Mw8rFUe5k" | podman login docker.io -u yasharma77 --password-stdin
+  297  podman push docker.io/yasharma77/myyashweb:v1
+  298  history 
+  299  cd .. 
+  300  cd ..
+  301  ls
+  302  history | cat >> history.txt
